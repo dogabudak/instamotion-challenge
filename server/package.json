@@ -1,0 +1,29 @@
+{
+  "name": "temedica_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server.ts",
+    "seed": "ts-node seed/seed.ts",
+    "prettier": "prettier -c .",
+    "prettier:fix": "yarn prettier --write"
+  },
+  "author": "Doga Budak",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^9.7.0",
+    "apollo-server": "^3.6.4",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.1.0",
+    "mongoose": "^6.2.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.41",
+    "prettier": "2.5.0"
+  }
+}
