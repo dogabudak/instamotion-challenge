@@ -1,6 +1,5 @@
 import type { ParsedUrlQuery } from "querystring";
 
-// TODO Change this
 export function getQueryParams(query: ParsedUrlQuery): Record<string, string> {
   const keys = Object.keys(query);
   const result: Record<string, string> = {};
