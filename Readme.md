@@ -49,9 +49,14 @@ This application follows a micro service like approach. The following sections e
 Since I couldn't spare enough time on this product I have some additional improvements that I want to make.
 
 1- Couldn't finish the server side implementation, Client side is still using the graphql api that instamotion provided.
+
 2- Could not implement any tests !
+
 3- Since i did not implement tests yet i could not finish the gitflow that i wanted to 
+
 4- Implementation of cypress also did not started yet 
+
 5- I did not implement a husky hook for the commit messages and tests but i wrote the commit messages according to conventional commit
+
 6- I would dockerize the implementation
 
