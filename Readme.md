@@ -16,8 +16,6 @@ You can test if yarn is installed correctly by using:
 yarn --version
 ```
 
-Install [docker](https://docs.docker.com/get-docker/) for docker containers.
-
 ## Quick starter on running the app
 Installing all the dependencies
 ```sh
@@ -26,10 +24,11 @@ yarn
 
 #Server
 Under `/server` you can find the server side code which was written with typescript using express.
-To run the server please simply use ` docker-compose up -d`. I used mongodb to stimulate a real database for this example.
+To run the server please simply use `yarn start`. I used mongodb to stimulate a real database for this example.
 
 #Client
 Under `/client` you can find the client side code which was written with typescript. I used next.js as requested. Code is formatted with prettier.
+To run the clent please simply use `yarn dev`.
 I tried to stick to atomic design principles. To achieve that I created 2 types of components with styled components. (Basic and Compact)
 
 ### Workspace Structure
